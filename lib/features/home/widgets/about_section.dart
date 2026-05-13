@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:my_portfofio_web/common/constants/global_constants.dart';
 import 'package:my_portfofio_web/config/app_config.dart';
 
 class AboutSection extends StatelessWidget {
@@ -106,12 +107,7 @@ class AboutSection extends StatelessWidget {
       height: height,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(10),
-        gradient: LinearGradient(
-          colors: [
-            const Color(0xFF64FFDA).withOpacity(0.2),
-            const Color(0xFF48BFE3).withOpacity(0.2),
-          ],
-        ),
+        gradient: AppConstants.gredients,
         image: const DecorationImage(
           image: AssetImage('assets/images/profile-image-01.jpg'),
           fit: BoxFit.cover,

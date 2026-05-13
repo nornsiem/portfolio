@@ -4,6 +4,7 @@ class ContactModel {
   final String website;
   final String github;
   final String linkedin;
+  final String telegram;
 
   const ContactModel({
     required this.email,
@@ -11,6 +12,7 @@ class ContactModel {
     required this.website,
     required this.github,
     required this.linkedin,
+    required this.telegram,
   });
 
   factory ContactModel.fromJson(Map<String, dynamic> json) {
@@ -20,6 +22,7 @@ class ContactModel {
       website: json['website'] ?? '',
       github: json['github'] ?? '',
       linkedin: json['linkedin'] ?? '',
+      telegram: json['telegram'] ?? '',
     );
   }
 
@@ -30,6 +33,7 @@ class ContactModel {
       'website': website,
       'github': github,
       'linkedin': linkedin,
+      'telegram': telegram,
     };
   }
 
@@ -39,6 +43,7 @@ class ContactModel {
     String? website,
     String? github,
     String? linkedin,
+    String? telegram,
   }) {
     return ContactModel(
       email: email ?? this.email,
@@ -46,6 +51,7 @@ class ContactModel {
       website: website ?? this.website,
       github: github ?? this.github,
       linkedin: linkedin ?? this.linkedin,
+      telegram: telegram ?? this.telegram,
     );
   }
 }

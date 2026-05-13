@@ -135,15 +135,9 @@ class HeroSection extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       crossAxisAlignment: CrossAxisAlignment.end,
       children: [
-        _buildSocialIcon(
-          FontAwesomeIcons.github,
-          'https://github.com/yourusername',
-        ),
+        _buildSocialIcon(FontAwesomeIcons.github, AppConfig.contact.github),
         const SizedBox(height: 20),
-        _buildSocialIcon(
-          FontAwesomeIcons.linkedin,
-          'https://linkedin.com/in/yourusername',
-        ),
+        _buildSocialIcon(FontAwesomeIcons.linkedin, AppConfig.contact.linkedin),
         const SizedBox(height: 20),
         _buildSocialIcon(
           FontAwesomeIcons.twitter,
