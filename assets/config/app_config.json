@@ -1,0 +1,87 @@
+{
+  "profile": {
+    "name": "Non Siem",
+    "title": "Software Engineer",
+    "location": "Phnom Penh, Cambodia",
+    "experience_years": 4,
+    "bio": "Passionate mobile app developer with experience building scalable Flutter applications for mobile and web platforms using clean architecture and Bloc state management."
+  },
+  "contact": {
+    "email": "siem.norn10@gmail.com",
+    "phone": "+85512345678",
+    "website": "https://yourportfolio.com",
+    "github": "https://github.com/nonsiem",
+    "linkedin": "https://linkedin.com/in/nonsiem"
+  },
+  "skills": {
+    "mobile_development": ["Flutter", "Android Kotlin", "Dart", "Java"],
+    "state_management": ["Bloc", "GetX", "Provider"],
+    "architecture": ["Clean Architecture", "MVVM", "Repository Pattern"],
+    "backend_services": ["Firebase", "REST API", "Dio", "Retrofit"],
+    "tools": ["Git", "Figma", "Postman", "Android Studio", "VS Code"]
+  },
+  "projects": [
+    {
+      "title": "E-Commerce App",
+      "image": "assets/images/projects/ecommerce.png",
+      "description": "Full-featured e-commerce application with Flutter and Firebase",
+      "technologies": ["Flutter", "Dart", "Firebase", "Stripe"],
+      "gitlab": "https://github.com/your-repo/portfolio",
+      "live_demo": "https://your-demo-link.com"
+    },
+    {
+      "title": "Task Management System",
+      "image": "assets/images/projects/ecommerce.png",
+      "description": "Enterprise task management with Java Spring Boot backend",
+      "technologies": ["Java", "Spring Boot", "React.js", "PostgreSQL"],
+      "gitlab": "https://github.com/your-repo/portfolio",
+      "live_demo": "https://your-demo-link.com"
+    },
+    {
+      "title": "Portfolio Website",
+      "image": "assets/images/projects/ecommerce.png",
+      "description": "Responsive portfolio built with Flutter Web",
+      "technologies": ["Flutter Web", "Dart", "Responsive Design"],
+      "gitlab": "https://github.com/your-repo/portfolio",
+      "live_demo": "https://your-demo-link.com"
+    }
+  ],
+  "education": [
+    {
+      "institution": "The University of Cambodia",
+      "degree": "Bachelor of Information Technology",
+      "field_of_study": "Software Development",
+      "start_year": 2020,
+      "end_year": 2024,
+      "grade": "A / Scholarship 100%",
+      "description": "Focused on mobile application development, software engineering principles, and system design.",
+      "location": "Phnom Penh, Cambodia"
+    },
+    {
+      "institution": "Hun Sen Kamchaymea High School",
+      "degree": "High School Diploma",
+      "field_of_study": "Science",
+      "start_year": 2016,
+      "end_year": 2019,
+      "grade": "B+",
+      "description": "Studied core science subjects including math, physics, and computer basics.",
+      "location": "Prey Veng, Cambodia"
+    }
+  ],
+  "achievements": [
+    "Built and released 3 apps to App Store and Play Store",
+    "Converted Flutter mobile app to Flutter Web single codebase",
+    "Implemented clean architecture with Bloc",
+    "Designed scalable application structures"
+  ],
+  "languages": [
+    {
+      "name": "Khmer",
+      "level": "Native"
+    },
+    {
+      "name": "English",
+      "level": "Intermediate"
+    }
+  ]
+}
