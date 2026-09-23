@@ -21,18 +21,10 @@ class ProjectsSection extends StatelessWidget {
     {
       'title': 'Task Management System',
       'description': 'Enterprise task management with Java Spring Boot backend',
-      'image': 'taskmanager',
+      'image': 'assets/images/projects/las-school.png',
       'technologies': ['Java', 'Spring Boot', 'React.js', 'PostgreSQL'],
       'github': 'https://github.com/yourusername/task-manager',
-      'live': 'https://your-task-app.com',
-    },
-    {
-      'title': 'Portfolio Website',
-      'description': 'Responsive portfolio built with Flutter Web',
-      'image': 'portfolio',
-      'technologies': ['Flutter Web', 'Dart', 'Responsive Design'],
-      'github': 'https://github.com/yourusername/portfolio',
-      'live': 'https://yourportfolio.com',
+      'live': 'https://las-school.nonsiem.workers.dev/',
     },
   ];
 
@@ -97,6 +89,8 @@ class ProjectsSection extends StatelessWidget {
                 const SizedBox(height: 15),
                 Text(
                   project.description,
+                  maxLines: 3,
+                  overflow: TextOverflow.ellipsis,
                   style: GoogleFonts.poppins(
                     fontSize: 14,
                     color: const Color(0xFF8892B0),
@@ -152,7 +146,7 @@ class ProjectsSection extends StatelessWidget {
     );
   }
 
-  Widget _buildProjectLink(IconData icon, String label, String url) {
+  Widget _buildProjectLink(FaIconData icon, String label, String url) {
     return MouseRegion(
       cursor: SystemMouseCursors.click,
       child: GestureDetector(

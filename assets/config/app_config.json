@@ -23,28 +23,20 @@
   },
   "projects": [
     {
-      "title": "E-Commerce App",
-      "image": "assets/images/projects/ecommerce.png",
-      "description": "Full-featured e-commerce application with Flutter and Firebase",
-      "technologies": ["Flutter", "Dart", "Firebase", "Stripe"],
+      "title": "Top Up Game",
+      "image": "assets/images/projects/topup-game.png",
+      "description": "Gaming top-up e-commerce platform with fast game purchases, multiple game support, and secure payment integration",
+      "technologies": ["Flutter", "Dart", "Firebase"],
       "gitlab": "https://github.com/your-repo/portfolio",
-      "live_demo": "https://your-demo-link.com"
+      "live_demo": "https://kantumruystore.nonsiem.workers.dev/"
     },
     {
-      "title": "Task Management System",
-      "image": "assets/images/projects/ecommerce.png",
-      "description": "Enterprise task management with Java Spring Boot backend",
-      "technologies": ["Java", "Spring Boot", "React.js", "PostgreSQL"],
+      "title": "LAS School",
+      "image": "assets/images/projects/las-school.png",
+      "description": "Responsive school management website with academic programs, activities, announcements, and bilingual Khmer-English support",
+      "technologies": ["Flutter"],
       "gitlab": "https://github.com/your-repo/portfolio",
-      "live_demo": "https://your-demo-link.com"
-    },
-    {
-      "title": "Portfolio Website",
-      "image": "assets/images/projects/ecommerce.png",
-      "description": "Responsive portfolio built with Flutter Web",
-      "technologies": ["Flutter Web", "Dart", "Responsive Design"],
-      "gitlab": "https://github.com/your-repo/portfolio",
-      "live_demo": "https://your-demo-link.com"
+      "live_demo": "https://las-school.nonsiem.workers.dev/"
     }
   ],
   "education": [

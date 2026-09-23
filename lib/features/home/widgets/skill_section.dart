@@ -146,7 +146,7 @@ class _SkillCard extends StatefulWidget {
 class _SkillCardState extends State<_SkillCard> {
   bool _isHovered = false;
 
-  IconData get _categoryIcon {
+  FaIconData get _categoryIcon {
     switch (widget.category['category'] as String) {
       case 'Mobile Development':
         return FontAwesomeIcons.mobile;
@@ -255,7 +255,7 @@ class _SkillCardState extends State<_SkillCard> {
             Row(
               children: [
                 FaIcon(
-                  skill['icon'] as IconData,
+                  skill['icon'] as FaIconData,
                   color: const Color(0xFF64FFDA),
                   size: widget.isMobile ? 12 : 14,
                 ),

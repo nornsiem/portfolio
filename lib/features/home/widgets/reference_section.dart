@@ -365,7 +365,7 @@ class _ReferenceCardState extends State<_ReferenceCard> {
 
 // ── Contact Icon Button ───────────────────────────────────
 class _ContactButton extends StatefulWidget {
-  final IconData icon;
+  final FaIconData icon;
   final String tooltip;
   final VoidCallback onTap;
 

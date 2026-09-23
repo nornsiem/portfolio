@@ -174,7 +174,7 @@ class HeroSection extends StatelessWidget {
     );
   }
 
-  Widget _buildSocialIcon(IconData icon, String url) {
+  Widget _buildSocialIcon(FaIconData icon, String url) {
     return MouseRegion(
       cursor: SystemMouseCursors.click,
       child: GestureDetector(

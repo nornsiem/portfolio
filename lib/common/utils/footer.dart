@@ -101,7 +101,7 @@ class Footer extends StatelessWidget {
     );
   }
 
-  Widget _buildFooterIcon(IconData icon, String url) {
+  Widget _buildFooterIcon(FaIconData icon, String url) {
     return MouseRegion(
       cursor: SystemMouseCursors.click,
       child: GestureDetector(
